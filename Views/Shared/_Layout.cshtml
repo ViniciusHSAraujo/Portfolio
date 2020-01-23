@@ -1,0 +1,102 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link type="text/css" rel="stylesheet" href="~/css">
+
+    <title> Vinícius Araújo - Portfolio </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Maha Personal cv/resume template for professional and personal website.">
+    <meta name="keywords" content="creative, cv, designer,  online cv, online resume, powerful portfolio, professional, professional resume, responsive, resume, vcard ">
+    <meta name="developer" content="Md. Siful Islam">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="//fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/animate.css">
+    <link rel="stylesheet" href="~/css/owl.css">
+    <link rel="stylesheet" href="~/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="~/css/styles.css">
+    <link rel="stylesheet" href="~/css/demo.css">
+    <link rel="stylesheet" href="~/css/responsive.css">
+
+    <link rel="stylesheet" href="~/css/defauld.css" title="defauld">
+</head>
+<body class="dark-vertion black-bg">
+    <div class="section-loader" style="display: none;">
+        <div class="loader">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <header class="black-bg mh-header mh-fixed-nav nav-scroll mh-xs-mobile-nav wow fadeInUp" id="mh-header" style="visibility: visible; animation-name: fadeInUp;">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg mh-nav nav-btn" style="display:flex; justify-content:space-around; align-items: flex-end">
+                    <a class="navbar-brand" asp-controller="Home" asp-action="Index">
+                        Vinícius Araújo
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-0 ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Home" asp-action="About">About me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Home" asp-action="Skills">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Home" asp-action="Projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Home" asp-action="Contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    @RenderBody()
+    <footer class="fixed-bottom">
+        <div class="col-sm-12 mh-copyright wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="visibility: hidden; animation-duration: 0.8s; animation-delay: 0.3s; animation-name: none;">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="text-left text-xs-center">
+                        <p>All right reserved - @DateTime.Now.Year</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <ul class="social-icon">
+                        <li><a href="http://github.com/ViniciusHSAraujo"><i class="fa fa-github"></i></a></li>
+                        <li><a href="http://linkedin.com/in/ViniciusHSAraujo"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="http://instagram.com/ViniciusHSAraujo"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/popper.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/owl.carousel.js"></script>
+    <script src="~/js/validator.min.js"></script>
+    <script src="~/js/wow.min.js"></script>
+    <script src="~/js/jquery.mixitup.min.js"></script>
+    <script src="~/js/circle-progress.js"></script>
+    <script src="~/js/jquery.nav.js"></script>
+    <script src="~/js/jquery.fancybox.min.js"></script>
+    <script src="~/js/isotope.pkgd.js"></script>
+    <script src="~/js/packery-mode.pkgd.js"></script>
+    <script src="~/js/custom-scripts.js"></script>
+</body>
+</html>
